@@ -6,3 +6,4 @@ if ingredients:
     ingredient_list = [ingredient.strip() for ingredient in ingredients.split(',')]
     response = generate_recipe(ingredient_list)
     st.markdown(response)
+
